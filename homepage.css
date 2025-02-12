@@ -1,0 +1,231 @@
+/* This is my font link */
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+/* This is the styling of my header carousel */
+header .carouselhome img {
+    height: 110vh;
+}
+
+/* Navbar styling */
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+
+
+
+    /* background: rgba(0, 0, 0, 0.5); Optional: darken background for readability */
+
+}
+
+
+
+.navbutton button {
+    padding: 2px 15px;
+    border-radius: 15vh;
+    border: 1px solid #CCF32F;
+    background-color: #CCF32F;
+    color: #000;
+
+}
+
+
+/* Styling my hero-section */
+
+
+
+.hero-section .hero-text {
+    margin-top: 50px;
+    text-align: left;
+    margin-bottom: 10%;
+}
+
+.hero-section .hero-text h1 {
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+
+.hero-section .hero-text p {
+    font-size: larger;
+    margin-bottom: 50px;
+}
+
+.hero-section .hero-text a button {
+
+    background-color: #CCF32F;
+    color: #141B34;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 20vh;
+    font-weight: 600;
+
+}
+
+/* The section for the bent image */
+
+.bentimg {
+    background-color: #CCF32F;
+}
+
+/* This is the styling of my why us section */
+
+main .whyus {
+    background-color: #D9ED82;
+}
+
+
+/* This is the stlying of my destination section */
+
+main .destination {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .destination h6 {
+    color: #112F38;
+}
+
+main .destination h2 {
+    color: #112F38;
+    font-family: georgia;
+    font-weight: 700;
+}
+
+main .destination a button {
+
+    background-color: #CCF32F;
+    color: #141B34;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 20vh;
+    font-weight: 600;
+
+
+}
+
+
+/* The styling of my cards in the destination section */
+main section div .card1 {
+    color: #fff;
+    background-image: url(./obudu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+}
+
+main section div .card1 h2 {
+    font-family: georgia;
+}
+
+/* The styling of my second card */
+
+main section div .card2 {
+    color: #fff;
+    background-image: url(./FairyMeadowsPakistan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+}
+
+main section div .card2 h2 {
+    font-family: georgia;
+}
+
+/* The styling of my third card */
+
+main section div .card3 {
+    color: #fff;
+    background-image: url(./grandcrayonarizona.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+}
+
+main section div .card3 h2 {
+    font-family: georgia;
+}
+
+/* This is the styling of my last section */
+
+
+main .lastsec {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .lastsec h2 {
+    color: #112F38;
+    font-family: georgia;
+    font-weight: 700;
+}
+
+main .lastsec a button {
+
+    background-color: #CCF32F;
+    color: #141B34;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 20vh;
+    font-weight: 600;
+
+
+}
+
+main .singlecard {
+    background-image: url(./raileybig.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+}
+
+main .lastsecdiv {
+    display: flex;
+    gap: 10rex;
+}
+
+/* "Ready for fun?" Section */
+
+main .fun {
+    background-color: #112F38;
+    width: 100%;
+}
+
+main .fun h1 {
+
+    font-family: georgia;
+    font-weight: 700;
+}
+
+main .fun a button {
+
+    background-color: #CCF32F;
+    color: #141B34;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 20vh;
+    font-weight: 600;
+
+
+}
+
+
+/* The styling of my footer */
+
+footer .footerdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .socials {
+    display: flex;
+    gap: 20px;
+}
+

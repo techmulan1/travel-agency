@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Button styling */
+
+.navbutton button {
+    padding: 2px 15px;
+    border-radius: 15vh;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.navbutton button:hover {
+    background-color: #CCF32F;
+    color: #000;
+    transition: 0.3s ease;
+    border: 1px solid #CCF32F;
+  
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 24%;
+    padding: 0 6px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* The styling of my footer */
+
+footer .footerdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .socials {
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            display: flex;
+            height: 100vh;
+        }
+
+        .left {
+            background-image: url(tres-amigos@2x-d52babcc9c7c.jpg);
+            width: 50%;
+            background: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .left h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .left p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .right {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .form-container {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .form-container h2 {
+            margin-bottom: 26px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: medium;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 8px 0px 5px 0px;
+        }
+
+        .form-group input:focus {
+            outline: 0;
+            border: 0.5px solid #4747cb;
+        }
+
+        .form-group.success input {
+            border-color: #008000;
+        }
+
+        .form-group.error input {
+            border-color: #ff0000;
+        }
+
+        .form-group small {
+            color: #808080;
+            font-size: 12px;
+        }
+
+        .btn i {
+            font-size: 12px;
+            margin-left: 4px;
+        }
+
+        .btn {
+            background: #000000;
+            color: #ffffff;
+            padding: 14px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        .btn:hover {
+            background: #333;
+        }
+
+        .error {
+            color: #ff0000;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="left">
+        <h1>Create your free account</h1>
+        <p>Explore GitHub’s core features for individuals and organizations.</p>
+    </div>
+
+    <div class="right">
+        <div class="form-container">
+            <h2>Sign up to GitHub</h2>
+
+            <form id="signupForm" action="/">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Email">
+                    <span class="error" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Password">
+                    <span class="error" id="passwordError"></span>
+                    <small>Password should be at least 15 characters OR at least 8 characters including a number and a
+                        lowercase letter.</small>
+                </div>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Username">
+                    <span class="error" id="usernameError"></span>
+                    <small>Username may only contain alphanumeric characters or single hyphens, and cannot begin or end
+                        with a hyphen.</small>
+                </div>
+                <button type="submit" class="btn">Continue <i class="fa-solid fa-chevron-right"></i></button>
+                <small style="color:#808080">By creating an account, you agree to the <a href="#">Terms of Service</a>. For
+                    more information about GitHub’s privacy practices, see the <a href="#">GitHub Privacy
+                        Statement</a>.</small>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
