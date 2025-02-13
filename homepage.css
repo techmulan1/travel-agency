@@ -110,12 +110,16 @@
         margin-bottom: 2vh;
     }
 
-    .lastsec button{
 
-        font-size: 1rex;
-        padding: 0;
-        margin-bottom: 20px;
 
+    main .lastsec a button{ 
+        display: none;
+        
+
+    }
+
+    main .singlecard{
+        display: none;
     }
   }
   
