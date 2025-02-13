@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 /* This is the styling of my header carousel */
-/* header .carouselhome img {
+ header .carouselhome img {
     height: 110vh;
-} */
+} 
 
 /* Navbar styling */
 
@@ -66,23 +66,56 @@
 
 }
 
- .hero-text {
-    position: relative;
-    text-align: center;
-    color: white;
-    z-index: 10;
-    padding: 20px;
-  } 
   
   @media (max-width: 768px) {
-    .hero-text {
-      padding: 15px;
+
+    .hero-section .row{
+        display: none;
     }
-    .hero-text h1 {
-      font-size: 1rem; /* Smaller font on mobile */
+
+    .hero-section .hero-text h1 {
+        display: block;
+        font-size: 2rem;
     }
-    .hero-text p {
-      font-size: 1rex; /* Smaller font for description */
+
+    main .whyus .container-fluid{
+        display: block;
+    }
+
+    main .whyus .container-fluid h3{
+        display: block;
+        font-size: 1rem;
+    }
+
+    main .whyus .container-fluid p{
+        display: block;
+        font-size: 1rex;
+    }
+
+    main .whyus .container-fluid br{
+        display: none;
+    }
+
+    .container-fluid .destination button{
+        font-size: 1rex;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .cardcon{
+        display: block;
+    }
+
+    .cardcon .col{
+        margin-bottom: 2vh;
+    }
+
+    .lastsec button{
+
+        font-size: 1rex;
+        padding: 0;
+        margin-bottom: 20px;
+
     }
   }
   
