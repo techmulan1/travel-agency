@@ -79,7 +79,7 @@
     }
 
     main .whyus .container-fluid{
-        display: block;
+        display: grid;
     }
 
     main .whyus .container-fluid h3{
