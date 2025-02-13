@@ -41,6 +41,7 @@ header .carouselhome img {
     margin-top: 50px;
     text-align: left;
     margin-bottom: 10%;
+
 }
 
 .hero-section .hero-text h1 {
@@ -65,8 +66,33 @@ header .carouselhome img {
 
 }
 
+ .hero-text {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 10;
+    padding: 20px;
+  } 
+  
+  @media (max-width: 768px) {
+    .hero-text {
+      padding: 15px;
+    }
+    .hero-text h1 {
+      font-size: 1rem; /* Smaller font on mobile */
+    }
+    .hero-text p {
+      font-size: 1rex; /* Smaller font for description */
+    }
+  }
+  
 
+.carousel-item img {
+    width: 100%;
+    height: auto;
+  }
 
+  
 /* The section for the bent image */
 
 .bentimg {
